@@ -31,7 +31,7 @@ body {
 
 /* Media Quiery */
 /* small */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container {
     width: 750px;
   }
@@ -121,7 +121,7 @@ a {
   .header .image-links {
     display: block;
     position: relative;
-    right: -270%;
+    right: -250%;
     top: -20px;
   }
   .header .nav .btn {
